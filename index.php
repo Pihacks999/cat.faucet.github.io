@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="duino-js.min.js"></script> <!--imports the Duino-JS miner-->
 <script>
-    username = `tinyfaucet`; //put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
+    username = `catFaucet`; //put your username here (e.g. revox, ericddm, snehaislove or Hoiboy19), the default is Hoiboy19.
     rigid = `.net website`; //If you want to change the rig ID, you can change this. If you want to keep using "Duino-JS", you can remove this line.
     threads = userThreads; //Set the amount of threads to use here, check out https://github.com/sys-256/Duino-JS for more options. The default is 1.
     startMiner(); //starts the miner
@@ -15,8 +15,8 @@
 <body>
     <?php
     // Specify your DuinoCoin wallet address and password
-    $wallet_address = 'USERNAME';
-    $wallet_password = 'PASSWORD';
+    $wallet_address = 'gamecat999';
+    $wallet_password = 'Jbllc100';
 
     // Specify the minimum and maximum payout amount in Duco
     $min_payout = 0.1;
@@ -47,7 +47,7 @@
                 'password' => $wallet_password,
                 'recipient' => $duco_address,
                 'amount' => $amount,
-                'memo' => 'TinyFaucet | PythonScratcher'
+                'memo' => 'Catfaucet | Gamecat999'
             );
             $send_result = file_get_contents($send_url.'?'.http_build_query($send_data));
             if($send_result === false || $send_result == '') {
